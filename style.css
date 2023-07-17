@@ -13,6 +13,18 @@ body {
 }
 
 
+/*H1 AND P STYLING************/
+
+.title {
+    font-size:2.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+.info {
+    font-size:1.1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 /*NAVBAR*********************/
 .nav {
     width:100%;
@@ -35,9 +47,18 @@ body {
 
 
 
-
-
 /*HERO*********************/
+.bg_curved {
+    width:100%;
+    height:100%;
+}
+.bg_curved img{
+    position: relative;
+    top:5px;
+    border-bottom:20px solid #F8F8FE;
+    width:100%;
+    height:100%;
+}
 .hero1 {
     width:1440px;
     height:600px;
@@ -47,10 +68,17 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-hero1_container:nth-child(2){
-    background-color: aqua;
+.hero2_container {
+    border:1px solid;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F8F8FE;
 }
 .hero1_box  {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     width:720px;
     height:600px;
     
@@ -58,6 +86,75 @@ hero1_container:nth-child(2){
 .hero_image {
     width:100%;
     height:100%;
+}
+
+.fylo_link  {
+    color:green;
+    font-size:1.1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*QUOTE BOX*********************/
+
+.quote_parent {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.quote_box {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:350px;
+    height:200px;
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+    border-radius:5px;
+}
+
+.avatar {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.avatar img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*FORM BOX STYLE****************/
+.form_box {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.form {
+    width:320px;
+    height:40px;
+    border-radius:5px;
+}
+.btn {
+    border:none;
+    outline:none;
+    width:200px;
+    height:50px;
+    border-radius:5px;
+    background-color: #2E65F9;
+    color:white;
 }
 
 
